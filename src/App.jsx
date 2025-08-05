@@ -8,7 +8,7 @@ function App(){
     fetch("https://dummyjson.com/quotes")
     .then(res=>res.json())
     .then((data)=>{
-      setWords(data.quotes.slice(0,15))
+      setWords(data.quotes.slice(0,20))
     },[])
   })
 
